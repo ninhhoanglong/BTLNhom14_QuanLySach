@@ -60,27 +60,28 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="20dp">
+
         <Button
             android:id="@+id/btnSavePM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lưu"
-            android:drawableStart="@drawable/ic_save"
-            android:textColor="@color/red"
-            android:background="@drawable/button"
+            android:layout_marginHorizontal="20dp"
             android:layout_weight="1"
-            android:layout_marginHorizontal="20dp"/>
+            android:background="@drawable/button"
+            android:drawableStart="@drawable/ic_save"
+            android:text="Lưu"
+            android:textColor="#ffffff" />
 
         <Button
-            android:textColor="@color/red"
-            android:background="@drawable/button"
             android:id="@+id/btnCancelPM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hủy"
-            android:drawableStart="@drawable/ic_cancel"
+            android:layout_marginHorizontal="20dp"
             android:layout_weight="1"
-            android:layout_marginHorizontal="20dp"/>
+            android:background="@drawable/button"
+            android:drawableStart="@drawable/ic_cancel"
+            android:text="Hủy"
+            android:textColor="#ffffff" />
     </LinearLayout>
 
 </LinearLayout>

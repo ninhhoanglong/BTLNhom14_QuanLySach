@@ -25,7 +25,7 @@ public class ThemUserFragment extends Fragment {
     private EditText edRePass;
     private Button btnSaveUser;
     private Button btnCancelUser;
-public static Pattern USER_NAME = Pattern.compile("^[A-Z]+\\w*");
+//public static Pattern USER_NAME = Pattern.compile("^[A-Z]+\\w*");
 
 ThuThu thuThu;
 ThuThuDAO dao;
@@ -78,12 +78,6 @@ ThuThuDAO dao;
 
 
      String hoten = edHoTen.getText().toString().trim();
-     if (! USER_NAME.matcher(hoten).matches()){
-         Toast.makeText(getContext(), "Chu cai dau tien phai viet hoa", Toast.LENGTH_SHORT).show();
-         check = -1;
-     }
-
-
      if (edHoTen.getText().length()==0 && edUser.getText().length()==0 && edPass.getText().length()==0 && edPass.getText().length()==0){
          edHoTen.setError("Không đc để trống");
          edPass.setError("Không đc để trống");

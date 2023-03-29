@@ -87,7 +87,7 @@
             android:layout_marginStart="48dp"
             android:layout_marginTop="48dp"
             android:text="Lưu"
-            android:textColor="#4b0082"
+            android:textColor="#ffffff"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/edRePass" />
 
@@ -99,7 +99,7 @@
             android:layout_marginTop="49dp"
             android:layout_marginEnd="47dp"
             android:text="Hủy"
-            android:textColor="#4b0082"
+            android:textColor="#ffffff"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btnSaveUser"
             app:layout_constraintTop_toBottomOf="@+id/edRePass" />

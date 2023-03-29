@@ -62,23 +62,25 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="20dp">
+
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/btnSaveSach"
-            android:text="Lưu"
-            android:textColor="#4b0082"
-            android:drawableStart="@drawable/ic_save"
-            android:layout_marginHorizontal="20dp"
-            android:layout_weight="1"/>
-        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnCancelSach"
-            android:textColor="#4b0082"
-            android:text="Hủy"
-            android:drawableStart="@drawable/ic_cancel"
             android:layout_marginHorizontal="20dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_save"
+            android:text="Lưu"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnCancelSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_cancel"
+            android:text="Hủy"
+            android:textColor="#ffffff" />
     </LinearLayout>
 </LinearLayout>
