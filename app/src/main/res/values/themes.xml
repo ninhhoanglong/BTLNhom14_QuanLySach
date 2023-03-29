@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Quangndph14804_Duanmau" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.BTL_Nhom14" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#ff4500</item>
         <item name="colorPrimaryVariant">#3399FF</item>
